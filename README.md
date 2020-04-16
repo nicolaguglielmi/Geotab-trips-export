@@ -10,7 +10,7 @@ trip_to_kml.py
 --------------
 This is a little utiliy to export trips of a single vehicle of a specific day in kml format.
 
-get_fleet_speed.py
+get_fleet_speeds.py
 ------------------
 This exports the whole fleet visible by the user you use to authenticate, positions and speed, for a range of date
 that you have to set in config.py
