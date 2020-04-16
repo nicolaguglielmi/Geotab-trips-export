@@ -3,12 +3,15 @@ In past I needed to export from the Geotab system some tracking device records o
 I wrote several small utility scripts to get different data in different formats
 
 config.py
+---------
 Set your authentication data and script variables
 
 trip_to_kml.py
+--------------
 This is a little utiliy to export trips of a single vehicle of a specific day in kml format.
 
 get_fleet_speed.py
+------------------
 This exports the whole fleet visible by the user you use to authenticate, positions and speed, for a range of date
 that you have to set in config.py
 A single file for each date, for each vehicles will be create in the data/ folder
